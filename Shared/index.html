@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D Labour Chowk</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script>
+      // script.js
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById("hamburger");
+        const navList = document
+          .getElementById("nav-right")
+          .querySelector("ul");
+
+        hamburger.addEventListener("click", () => {
+          navList.classList.toggle("active");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header class="fade-in">
+      <div class="logo">
+        <h1>D Labour Chowk</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="sign_up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+
+    <div class="search-bar">
+      <!--<input type="text" placeholder="Search..." class="search-input" />
+      <button class="search-button">Search</button>-->
+    </div>
+
+    <div class="container-para">
+      <div class="para-one">Quality service on your demand</div>
+    </div>
+
+    <div class="categories">
+      <div class="card">
+        <img src="imagehome/plumberwhat1.jpg" alt="Plumber" />
+        <h3 class="coloringplumbername">Plumber</h3>
+        <p>Expert in fixing leaks, clogs, and installations.</p>
+        <a href="plumberreadmore.html">Read More</a>
+      </div>
+      <div class="card">
+        <img src="imagehome/carpenterwhat1.jpg" alt="Carpenter" />
+        <h3>Carpenter</h3>
+        <p>Skilled in woodworking, framing, and repairs.</p>
+        <a href="carpenterreadmore.html">Read More</a>
+      </div>
+      <div class="card">
+        <img src="imagehome/painterwhat1.jpg" alt="Painter" />
+        <h3>Painter</h3>
+        <p>Professional painting services for homes and offices.</p>
+        <a href="painterreadmore.html">Read More</a>
+      </div>
+      <div class="card">
+        <img src="imagehome/electricianwhat2.jpg" alt="Electrician" />
+        <h3>Electrician</h3>
+        <p>Qualified to handle all electrical installations and repairs.</p>
+        <a href="electricainreadmore.html">Read More</a>
+      </div>
+    </div>
+
+    <div class="container-para-2">
+      <div class="para-one">Explore the best suitable job for you</div>
+    </div>
+
+    <!-- NEW APPLY JOB CARDS -->
+    <div class="new-apply-card">
+      <div class="job-card">
+        <img
+          src="imagehome/carpentertool.jpg"
+          alt="Construction Worker"
+          class="job-image"
+        />
+        <div class="job-content">
+          <h2 class="job-title">Carpenter</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Ujjain, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹15,000 - ₹20,000
+          </div>
+          <div class="job-detail">
+            We are looking for skilled construction workers to join our team for
+            various building projects.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <img
+          src="imagehome/electricaintool.jpg"
+          alt="Electrician"
+          class="job-image"
+        />
+        <div class="job-content">
+          <h2 class="job-title">Electrician</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Indore, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹12,000 - ₹18,000
+          </div>
+          <div class="job-detail">
+            Experienced electricians needed for commercial and residential
+            projects. Must have certification.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <img src="imagehome/plumbingtool.jpg" alt="Plumber" class="job-image" />
+        <div class="job-content">
+          <h2 class="job-title">Plumber</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Bhopal, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹10,000 - ₹15,000
+          </div>
+          <div class="job-detail">
+            We are hiring plumbers for maintenance and installation projects.
+            Previous experience required.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <img src="imagehome/paintertool.jpg" alt="Painter" class="job-image" />
+        <div class="job-content">
+          <h2 class="job-title">Painter</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Gwalior, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹8,000 - ₹12,000
+          </div>
+          <div class="job-detail">
+            Professional painters needed for residential and commercial painting
+            projects. Must be detail-oriented.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <img
+          src="imagehome/carpentertool.jpg"
+          alt="Carpenter"
+          class="job-image"
+        />
+        <div class="job-content">
+          <h2 class="job-title">Carpenter</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Jabalpur, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹12,000 - ₹16,000
+          </div>
+          <div class="job-detail">
+            Skilled carpenters required for various woodwork projects. Must have
+            own tools and previous experience.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <img
+          src="imagehome/electricaintool.jpg"
+          alt="Welder"
+          class="job-image"
+        />
+        <div class="job-content">
+          <h2 class="job-title">Electrician</h2>
+          <div class="job-location">
+            <i class="fas fa-map-marker-alt"></i>Ratlam, MP
+          </div>
+          <div class="job-salary">
+            <i class="fas fa-indian-rupee-sign"></i>Salary: ₹14,000 - ₹18,000
+          </div>
+          <div class="job-detail">
+            Certified welders needed for industrial projects. Must have
+            knowledge of various welding techniques.
+          </div>
+          <button
+            class="apply-btn"
+            onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+          >
+            Apply Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CALL TO ACTION SECTION -->
+    <div class="call_to_action">
+      <p>If you want to see more jobs then click on the button given below</p>
+      <button
+        class="more_jobs_btn"
+        onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+      >
+        Get more jobs
+      </button>
+    </div>
+    <div class="call_to_action">
+      <p>
+        Need workers for your projects? Post jobs for free and hire workers
+        anytime anywhere
+      </p>
+      <button
+        class="more_jobs_btn"
+        onclick="window.location.href='http://localhost/D_Labour_Chowk/Shared/login.html'"
+      >
+        Post free jobs now
+      </button>
+    </div>
+
+    <!-- ABOUT US SECTION -->
+    <div id="about" class="responsive-container-block bigContainer">
+      <div class="responsive-container-block Container">
+        <img
+          class="mainImg"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eaboutus1.svg"
+        />
+        <div class="allText aboveText">
+          <p class="text-blk headingText">Our Mission</p>
+          <p class="text-blk subHeadingText">
+            Bridging the gap between laborers and contractors.
+          </p>
+          <p class="text-blk description">
+            Our mission is to create a seamless connection between laborers and
+            contractors, providing a platform where skilled workers can find
+            reliable job opportunities and
+          </p>
+        </div>
+      </div>
+      <div class="responsive-container-block Container bottomContainer">
+        <img
+          class="mainImg"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/xpraup2.svg"
+        />
+        <div class="allText bottomText">
+          <p class="text-blk headingText">Our Vision</p>
+          <p class="text-blk subHeadingText">
+            Building a stronger workforce community.
+          </p>
+          <p class="text-blk description">
+            Our vision is to foster a thriving workforce community where
+            laborers and contractors can connect, collaborate, and grow
+            together.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- this is php for submit section -->
+
+    <div id="contactus" class="contact_us">
+      <h1>Contact Us</h1>
+
+      <div class="contact_form">
+        <form action="submit_contact.php" method="post">
+          <div class="form_item">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_item">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form_item">
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form_item">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit_btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div id="contactus" class="contact_us">
+      <h1>Contact Us</h1>
+      <div class="contact_form">
+        <form action="submit_contact.php" method="post">
+          <div class="form_item">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_item">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form_item">
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form_item">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit_btn">Submit</button>
+        </form>
+      </div>
+    </div> -->
+
+    <section id="copy-right">
+      <div class="copy-right-sec">
+        <i class="fa-solid fa-copyright"></i> Labor and Customers Site 2024
+        Powered By <a href="#">D labour chowk</a>
+        <button
+          style="background-color: black; height: 40px; margin-left: 300px"
+        >
+          <a href="#">back to top</a>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      // script.js
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById("hamburger");
+        const navList = document
+          .getElementById("nav-right")
+          .querySelector("ul");
+
+        hamburger.addEventListener("click", () => {
+          navList.classList.toggle("active");
+        });
+      });
+    </script>
+    <script>
+      // Function to check URL for success message
+      window.onload = function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("success")) {
+          alert("Your message has been successfully submitted.");
+        }
+      };
+    </script>
+  </body>
+</html>

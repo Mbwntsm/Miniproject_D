@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="carpenterreadmore.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>D Labour Chowk</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#contactus">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="sign_up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="image"><img src="imagehome/carpenterwhat1.jpg" /></div>
+      <div class="information">
+        <ul>
+          <h1>Carpenter</h1>
+        </ul>
+        <ul>
+          <h3>
+            We offer a comprehensive listing of professional carpenters ready to
+            assist you with all your woodworking needs. Whether you're looking
+            to build custom furniture, renovate your home, or undertake any
+            carpentry project, our skilled carpenters bring expertise,
+            craftsmanship, and dedication to every job.
+          </h3>
+          <button id="on-toggle" class="hire-us-btn">Hire Us</button>
+        </ul>
+      </div>
+    </div>
+
+    <div style="text-align: center"><h1>Service we offer</h1></div>
+
+    <div class="cards-container-readmore">
+      <div class="card-readmore">
+        <div class="image-container-readmore">
+          <img
+            src="imagehome/carpenterwhat1.jpg"
+            alt="Description of Image 1"
+          />
+        </div>
+        <div class="info-container-readmore">
+          <p>This is some information about image 1.</p>
+        </div>
+      </div>
+      <div class="card-readmore">
+        <div class="image-container-readmore">
+          <img
+            src="imagehome/carpenterwhat1.jpg"
+            alt="Description of Image 2"
+          />
+        </div>
+        <div class="info-container-readmore">
+          <p>This is some information about image 2.</p>
+        </div>
+      </div>
+      <div class="card-readmore">
+        <div class="image-container-readmore">
+          <img
+            src="imagehome/carpenterwhat1.jpg"
+            alt="Description of Image 3"
+          />
+        </div>
+        <div class="info-container-readmore">
+          <p>This is some information about image 3.</p>
+        </div>
+      </div>
+      <div class="card-readmore">
+        <div class="image-container-readmore">
+          <img
+            src="imagehome/carpenterwhat1.jpg"
+            alt="Description of Image 4"
+          />
+        </div>
+        <div class="info-container-readmore">
+          <p>This is some information about image 4.</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="copy-right">
+      <div class="copy-right-sec">
+        <i class="fa-solid fa-copyright"></i> Labor and Contractor Site 2024
+        Powered By <a href="#">Your Company</a>
+      </div>
+    </section>
+
+    <script>
+      document
+        .getElementById("on-toggle")
+        .addEventListener("click", function () {
+          // Redirect to the desired page
+          window.location.href = "login.html"; // Replace with your target URL
+        });
+    </script>
+  </body>
+</html>
